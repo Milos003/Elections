@@ -1,0 +1,67 @@
+> Welcome to the Election Simulator Program!
+> 
+> Please enter an ID for candidate 1! (single letter only)
+?  > 
+< A
+> 
+> Please enter an ID for candidate 2! (single letter only)
+?  > 
+< A
+> [Error] This ID is already in use!
+> 
+> Please enter an ID for candidate 2! (single letter only)
+?  > 
+< B
+> 
+> Please enter an ID for candidate 3! (single letter only)
+?  > 
+< C
+> 
+> Please enter an ID for candidate 4! (single letter only)
+?  > 
+< D
+> 
+> Please enter an ID for candidate 5! (single letter only)
+?  > 
+< E
+> 
+> Please enter the amount of votes for candidate "A"! (1 to 1000)
+?  > 
+< 175
+> 
+> Please enter the amount of votes for candidate "B"! (1 to 1000)
+?  > 
+< 120
+> 
+> Please enter the amount of votes for candidate "C"! (1 to 1000)
+?  > 
+< 150
+> 
+> Please enter the amount of votes for candidate "D"! (1 to 1000)
+?  > 
+< 175
+> 
+> Please enter the amount of votes for candidate "E"! (1 to 1000)
+?  > 
+< 100
+> 
+> Are you sure the input is correct?
+>  1. Yes
+>  2. No
+?  > 
+< 1
+> 
+> The results of the election are:
+>  - Candidate "A": 24.31 % (175 votes).
+>  - Candidate "B": 16.67 % (120 votes).
+>  - Candidate "C": 20.83 % (150 votes).
+>  - Candidate "D": 24.31 % (175 votes).
+>  - Candidate "E": 13.89 % (100 votes).
+> 
+> Please congratulate the winner(s) of the election:
+>  - Candidate "A"!
+>  - Candidate "D"!
+> 
+> That's a 2-way tie!
+> 
+> Thank you for using the Election Simulator Program!

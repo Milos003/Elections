@@ -1,0 +1,46 @@
+[project_definition]
+binary_path = "./a1"
+makefile_path = "."
+make_targets = ["all"]
+project_name = "a1"
+global_timeout = 20
+
+[[testcases]]
+name = "Example Output #1: Standard Operation"
+description = "No ties, no false inputs"
+type = "OrdIO"
+io_file = "tests/01/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Example Output #2: 2-way tie"
+description = "2-way tie, duplicate ID"
+type = "OrdIO"
+io_file = "tests/02/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Redo voting input"
+description = "Correcting incorrect voting input"
+type = "OrdIO"
+io_file = "tests/03/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "3-way tie"
+description = "Election resulting in a 3-way tie"
+type = "OrdIO"
+io_file = "tests/04/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0
+
+[[testcases]]
+name = "Out of bounds votes"
+description = "Attempting to input votes that are out of bounds"
+type = "OrdIO"
+io_file = "tests/05/io"
+io_prompt = "^\\s*>\\s*$"
+exp_exit_code = 0

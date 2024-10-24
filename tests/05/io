@@ -1,0 +1,89 @@
+> Welcome to the Election Simulator Program!
+> 
+> Please enter an ID for candidate 1! (single letter only)
+?  > 
+< W
+> 
+> Please enter an ID for candidate 2! (single letter only)
+?  > 
+< O
+> 
+> Please enter an ID for candidate 3! (single letter only)
+?  > 
+< R
+> 
+> Please enter an ID for candidate 4! (single letter only)
+?  > 
+< L
+> 
+> Please enter an ID for candidate 5! (single letter only)
+?  > 
+< D
+> 
+> Please enter the amount of votes for candidate "W"! (1 to 1000)
+?  > 
+< 0
+> [Error] This input is out of bounds!
+> 
+> Please enter the amount of votes for candidate "W"! (1 to 1000)
+?  > 
+< 333
+> 
+> Please enter the amount of votes for candidate "O"! (1 to 1000)
+?  > 
+< 1001
+> [Error] This input is out of bounds!
+> 
+> Please enter the amount of votes for candidate "O"! (1 to 1000)
+?  > 
+< 444
+> 
+> Please enter the amount of votes for candidate "R"! (1 to 1000)
+?  > 
+< -1
+> [Error] This input is out of bounds!
+> 
+> Please enter the amount of votes for candidate "R"! (1 to 1000)
+?  > 
+< 555
+> 
+> Please enter the amount of votes for candidate "L"! (1 to 1000)
+?  > 
+< 2147483648
+> [Error] This input is out of bounds!
+> 
+> Please enter the amount of votes for candidate "L"! (1 to 1000)
+?  > 
+< 666
+> 
+> Please enter the amount of votes for candidate "D"! (1 to 1000)
+?  > 
+< 2147483658
+> [Error] This input is out of bounds!
+> 
+> Please enter the amount of votes for candidate "D"! (1 to 1000)
+?  > 
+< -2147483688
+> [Error] This input is out of bounds!
+> 
+> Please enter the amount of votes for candidate "D"! (1 to 1000)
+?  > 
+< 777
+> 
+> Are you sure the input is correct?
+>  1. Yes
+>  2. No
+?  > 
+< 1
+> 
+> The results of the election are:
+>  - Candidate "W": 12.00 % (333 votes).
+>  - Candidate "O": 16.00 % (444 votes).
+>  - Candidate "R": 20.00 % (555 votes).
+>  - Candidate "L": 24.00 % (666 votes).
+>  - Candidate "D": 28.00 % (777 votes).
+> 
+> Please congratulate the winner(s) of the election:
+>  - Candidate "D"!
+> 
+> Thank you for using the Election Simulator Program!

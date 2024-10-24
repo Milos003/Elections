@@ -1,0 +1,59 @@
+> Welcome to the Election Simulator Program!
+> 
+> Please enter an ID for candidate 1! (single letter only)
+?  > 
+< a
+> 
+> Please enter an ID for candidate 2! (single letter only)
+?  > 
+< b
+> 
+> Please enter an ID for candidate 3! (single letter only)
+?  > 
+< c
+> 
+> Please enter an ID for candidate 4! (single letter only)
+?  > 
+< d
+> 
+> Please enter an ID for candidate 5! (single letter only)
+?  > 
+< e
+> 
+> Please enter the amount of votes for candidate "a"! (1 to 1000)
+?  > 
+< 1
+> 
+> Please enter the amount of votes for candidate "b"! (1 to 1000)
+?  > 
+< 2
+> 
+> Please enter the amount of votes for candidate "c"! (1 to 1000)
+?  > 
+< 3
+> 
+> Please enter the amount of votes for candidate "d"! (1 to 1000)
+?  > 
+< 4
+> 
+> Please enter the amount of votes for candidate "e"! (1 to 1000)
+?  > 
+< 5
+> 
+> Are you sure the input is correct?
+>  1. Yes
+>  2. No
+?  > 
+< 1
+> 
+> The results of the election are:
+>  - Candidate "a": 6.67 % (1 votes).
+>  - Candidate "b": 13.33 % (2 votes).
+>  - Candidate "c": 20.00 % (3 votes).
+>  - Candidate "d": 26.67 % (4 votes).
+>  - Candidate "e": 33.33 % (5 votes).
+> 
+> Please congratulate the winner(s) of the election:
+>  - Candidate "e"!
+> 
+> Thank you for using the Election Simulator Program!

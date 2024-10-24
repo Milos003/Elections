@@ -1,0 +1,63 @@
+> Welcome to the Election Simulator Program!
+> 
+> Please enter an ID for candidate 1! (single letter only)
+?  > 
+< T
+> 
+> Please enter an ID for candidate 2! (single letter only)
+?  > 
+< E
+> 
+> Please enter an ID for candidate 3! (single letter only)
+?  > 
+< S
+> 
+> Please enter an ID for candidate 4! (single letter only)
+?  > 
+< t
+> 
+> Please enter an ID for candidate 5! (single letter only)
+?  > 
+< s
+> 
+> Please enter the amount of votes for candidate "T"! (1 to 1000)
+?  > 
+< 999
+> 
+> Please enter the amount of votes for candidate "E"! (1 to 1000)
+?  > 
+< 345
+> 
+> Please enter the amount of votes for candidate "S"! (1 to 1000)
+?  > 
+< 999
+> 
+> Please enter the amount of votes for candidate "t"! (1 to 1000)
+?  > 
+< 653
+> 
+> Please enter the amount of votes for candidate "s"! (1 to 1000)
+?  > 
+< 999
+> 
+> Are you sure the input is correct?
+>  1. Yes
+>  2. No
+?  > 
+< 1
+> 
+> The results of the election are:
+>  - Candidate "T": 25.01 % (999 votes).
+>  - Candidate "E": 8.64 % (345 votes).
+>  - Candidate "S": 25.01 % (999 votes).
+>  - Candidate "t": 16.35 % (653 votes).
+>  - Candidate "s": 25.01 % (999 votes).
+> 
+> Please congratulate the winner(s) of the election:
+>  - Candidate "T"!
+>  - Candidate "S"!
+>  - Candidate "s"!
+> 
+> That's a 3-way tie!
+> 
+> Thank you for using the Election Simulator Program!

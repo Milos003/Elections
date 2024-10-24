@@ -1,0 +1,85 @@
+> Welcome to the Election Simulator Program!
+> 
+> Please enter an ID for candidate 1! (single letter only)
+?  > 
+< q
+> 
+> Please enter an ID for candidate 2! (single letter only)
+?  > 
+< w
+> 
+> Please enter an ID for candidate 3! (single letter only)
+?  > 
+< e
+> 
+> Please enter an ID for candidate 4! (single letter only)
+?  > 
+< r
+> 
+> Please enter an ID for candidate 5! (single letter only)
+?  > 
+< t
+> 
+> Please enter the amount of votes for candidate "q"! (1 to 1000)
+?  > 
+< 1
+> 
+> Please enter the amount of votes for candidate "w"! (1 to 1000)
+?  > 
+< 2
+> 
+> Please enter the amount of votes for candidate "e"! (1 to 1000)
+?  > 
+< 3
+> 
+> Please enter the amount of votes for candidate "r"! (1 to 1000)
+?  > 
+< 4
+> 
+> Please enter the amount of votes for candidate "t"! (1 to 1000)
+?  > 
+< 5
+> 
+> Are you sure the input is correct?
+>  1. Yes
+>  2. No
+?  > 
+< 2
+> 
+> Please enter the amount of votes for candidate "q"! (1 to 1000)
+?  > 
+< 5
+> 
+> Please enter the amount of votes for candidate "w"! (1 to 1000)
+?  > 
+< 4
+> 
+> Please enter the amount of votes for candidate "e"! (1 to 1000)
+?  > 
+< 3
+> 
+> Please enter the amount of votes for candidate "r"! (1 to 1000)
+?  > 
+< 2
+> 
+> Please enter the amount of votes for candidate "t"! (1 to 1000)
+?  > 
+< 1
+> 
+> Are you sure the input is correct?
+>  1. Yes
+>  2. No
+?  > 
+< 1
+> 
+> The results of the election are:
+>  - Candidate "q": 33.33 % (5 votes).
+>  - Candidate "w": 26.67 % (4 votes).
+>  - Candidate "e": 20.00 % (3 votes).
+>  - Candidate "r": 13.33 % (2 votes).
+>  - Candidate "t": 6.67 % (1 votes).
+> 
+> Please congratulate the winner(s) of the election:
+>  - Candidate "q"!
+> 
+> Thank you for using the Election Simulator Program!
