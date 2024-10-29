@@ -79,6 +79,7 @@ int main(void) {
         while (1) {
             printf("\nPlease enter an ID for candidate %d! (single letter only)\n > ", i + 1);
             scanf(" %c", &input);
+            while (getchar() != '\n');
 
             if (isalpha(input)) {
                 if (is_unique(input, candidate, i)) {
