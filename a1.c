@@ -84,6 +84,7 @@ int main(void) {
             if (isalpha(input)) {
                 if (is_unique(input, candidate, i)) {
                     candidate[i].id = input;
+                    candidate[i].votes = 0;
                     break;
                 } else {
                     printf("[Error] This ID is already in use!\n");
