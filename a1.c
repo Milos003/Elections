@@ -29,7 +29,7 @@ void election_results(struct CandidatesIDs candidate[], int count) {
 
     
     for (int i = 0; i < count; i++) {
-        double percentage = ((double)candidate[i].votes / total_votes) * 100;
+        double percentage = total_votes > 0 ? ((double)candidate[i].votes / total_votes) * 100 : 0;
         printf(" - Candidate \"%c\": %.2f %% (%d votes).\n", candidate[i].id, percentage, candidate[i].votes);
     }
 }
@@ -84,7 +84,6 @@ int main(void) {
             if (isalpha(input)) {
                 if (is_unique(input, candidate, i)) {
                     candidate[i].id = input;
-                    candidate[i].votes = 0;
                     break;
                 } else {
                     printf("[Error] This ID is already in use!\n");
