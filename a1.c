@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 #define NUM_CANDIDATES 5
-#define MAX_RETRIES 3  
+
 
 struct _CandidatesIDs_ {
     char id_;
