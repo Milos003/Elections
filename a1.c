@@ -89,7 +89,7 @@ void winners_Announcment(CandidatesData candidate[], int count) {
 // Function to collect candidate IDs
 //---------------------------------------------
 
-void input_candidate_ids(CandidatesData candidate[]) {
+void input_Candidate_Ids(CandidatesData candidate[]) {
   char input_;
   for (int i = 0; i < NUM_CANDIDATES; i++) {
     while (1) {
@@ -113,7 +113,7 @@ void input_candidate_ids(CandidatesData candidate[]) {
 // Function to collect votes for each candidate
 //---------------------------------------------
 
-void input_candidate_votes(struct _CandidatesData_ candidate[]) {
+void input_Candidate_Votes(struct _CandidatesData_ candidate[]) {
   int votes_;
   for (int i = 0; i < NUM_CANDIDATES; i++) {
     while (1) {
@@ -128,11 +128,12 @@ void input_candidate_votes(struct _CandidatesData_ candidate[]) {
     }
   }
 }
+
 //---------------------------------------------
 // Function to confirm vote input
 //---------------------------------------------
 
-int confirm_input(void) {
+int confirm_Input(void) {
   int confirm_;
   while (1) {
     printf("\nAre you sure the input is correct?\n 1. Yes\n 2. No\n > ");
@@ -154,12 +155,12 @@ int main(void) {
 
   CandidatesData candidate[NUM_CANDIDATES];
 
-  input_candidate_ids(candidate);
+  input_Candidate_Ids(candidate);
 
   while (1) {
-    input_candidate_votes(candidate);
+    input_Candidate_Votes(candidate);
 
-    if (confirm_input()) {
+    if (confirm_Input()) {
       break;  
     }
   }
