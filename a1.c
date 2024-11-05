@@ -147,7 +147,7 @@ int confirm_Input(void) {
 }
 
 //---------------------------------------------
-//Calling all funktions in my main funktion
+// Calling all functions in my main function
 //---------------------------------------------
 
 int main(void) {
