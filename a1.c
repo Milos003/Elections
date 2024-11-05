@@ -19,7 +19,11 @@ typedef struct _CandidatesData_
   int votes_;
 } CandidatesData;
 
+
+//---------------------------------------------
 // Function that checks if id is a unique one
+//---------------------------------------------
+
 int is_Unique(char id_, CandidatesData candidate[], int count) {
   for (int i = 0; i < count; i++) {
     if (candidate[i].id_ == id_) {
@@ -29,7 +33,10 @@ int is_Unique(char id_, CandidatesData candidate[], int count) {
   return 1;
 }
 
+//---------------------------------------------
 // Function that calculates election results
+//---------------------------------------------
+
 void election_Results(CandidatesData candidate[], int count) {
   int total_votes_ = 0;
 
@@ -45,7 +52,10 @@ void election_Results(CandidatesData candidate[], int count) {
   }
 }
 
+//---------------------------------------------
 // Function that announces the winner
+//---------------------------------------------
+
 void winners_Announcment(CandidatesData candidate[], int count) {
   int max_votes_ = 0;
   int tied_candidates_ = 0;
@@ -75,8 +85,10 @@ void winners_Announcment(CandidatesData candidate[], int count) {
   }
 }
 
-
+//---------------------------------------------
 // Function to collect candidate IDs
+//---------------------------------------------
+
 void input_candidate_ids(CandidatesData candidate[]) {
   char input_;
   for (int i = 0; i < NUM_CANDIDATES; i++) {
@@ -97,7 +109,10 @@ void input_candidate_ids(CandidatesData candidate[]) {
   }
 }
 
+//---------------------------------------------
 // Function to collect votes for each candidate
+//---------------------------------------------
+
 void input_candidate_votes(struct _CandidatesData_ candidate[]) {
   int votes_;
   for (int i = 0; i < NUM_CANDIDATES; i++) {
@@ -113,8 +128,10 @@ void input_candidate_votes(struct _CandidatesData_ candidate[]) {
     }
   }
 }
-
+//---------------------------------------------
 // Function to confirm vote input
+//---------------------------------------------
+
 int confirm_input(void) {
   int confirm_;
   while (1) {
@@ -127,6 +144,10 @@ int confirm_input(void) {
     }
   }
 }
+
+//---------------------------------------------
+//Calling all funktions in my main funktion
+//---------------------------------------------
 
 int main(void) {
   printf("Welcome to the Election Simulator Program!\n");
