@@ -62,7 +62,8 @@ void election_Results(CandidatesData candidate[], int count)
 // Function that announces the winner
 //---------------------------------------------
 
-void winners_Announcment(CandidatesData candidate[], int count) {
+void winners_Announcment(CandidatesData candidate[], int count) 
+{
   int max_votes_ = 0;
   int tied_candidates_ = 0;
 
