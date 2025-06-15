@@ -35,7 +35,12 @@ Structs for candidate data abstraction
 Input/output formatting
 
 
+
+
 How It Works
+
+
+
 The program greets the user.
 
 User is prompted to enter unique IDs for 5 candidates (single characters).
